@@ -1,0 +1,13 @@
+<!--pages/index/diary.wxml-->
+<view class="article_title">
+  <text>{{article.title}}</text>
+</view>
+<view class="article_date">
+  <text>发布日期：{{article.date}}</text>
+</view>
+<view class="article_username">
+  <text>作者：{{article.username}}</text>
+</view>
+<view class="article_text">
+  <text>{{article.text}}</text>
+</view>

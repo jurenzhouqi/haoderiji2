@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/home",
+    "pages/index/diary",
+    "pages/index/add",
+    "pages/index/manager",
+    "pages/logs/logs",
+    "pages/user/index",
+    "pages/user/login",
+    "pages/user/register"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9999ff",
+    "navigationBarTitleText": "Diary",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

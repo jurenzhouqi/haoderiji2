@@ -1,0 +1,7 @@
+/* pages/user/index.wxss */
+.load_pic{
+    padding-top: 60%;
+    padding-left: 35%;
+    width: 140px;
+    height: 100px;
+}

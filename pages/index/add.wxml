@@ -1,0 +1,24 @@
+
+<!--pages/index/add.wxml-->
+<view class="main">
+  <form bindsubmit="formSubmit">
+    <view >
+      <input name="title" class="article_title" placeholder="日记标题" />
+    </view>
+    <view class="article_label">
+      <label>是否公开：</label>
+      <switch name="status" />
+    </view>
+    <view class="article_date">
+      <picker name="date" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          选择日期{{date}}
+        </view>
+      </picker>
+    </view>
+    <view class="article_text">
+      <textarea name="text" bindblur="bindTextAreaBlur" auto-height placeholder="日记内容" />
+    </view>
+    <button style="margin-top:20px" size="mini" formType="submit">增加新日志</button>
+  </form>
+</view>

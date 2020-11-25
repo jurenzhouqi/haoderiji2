@@ -1,0 +1,22 @@
+/* pages/index/diary.wxss */
+.article_title{
+    font-size: 28px;
+    text-align:center;
+    padding-top:20px; 
+}
+.article_date{
+    font-size: 12px;
+    text-align:center;
+    padding-top:10px;
+    color: gray; 
+}
+.article_username{
+    font-size: 12px;
+    text-align:center;
+    color: gray; 
+}
+.article_text{
+    font-size: 18px;
+    text-align:center;
+    padding-top:20px; 
+}
